@@ -7,7 +7,7 @@ public class UserDefinedException {
 		j=9;
 		try{
 		int k=i/j;
-		if(k==0)throw new salmanException("this is not possible");
+		if(j==0)throw new salmanException("this is not possible");
 		System.out.println(k);
 		}
 		catch(salmanException e){
